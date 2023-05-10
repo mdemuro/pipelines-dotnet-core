@@ -17,8 +17,7 @@ stages:
   jobs:
   - job: A
     steps:
-    - script: |
-      uname -a
+    - script:
       dotnet build --configuration $(buildConfiguration)
       displayName: 'dotnet build $(buildConfiguration)'
 
