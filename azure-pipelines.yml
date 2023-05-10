@@ -20,4 +20,3 @@ stages:
     - script: |
       uname -a
       dotnet build --configuration $(buildConfiguration)
-      displayName: 'dotnet build $(buildConfiguration)'
