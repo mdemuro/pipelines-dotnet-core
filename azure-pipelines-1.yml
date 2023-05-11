@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-#  container: ubuntu:18.04
+  container: ubuntu:18.04
 
 
 steps:
@@ -19,5 +19,6 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    ls /etc
+    uname -a
+    cat /etc/os-release
   displayName: 'Run a multi-line script'
