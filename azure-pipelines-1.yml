@@ -20,5 +20,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     uname -a
-    cat /etc/os-release
+    dotnet build --configuration $(buildConfiguration)
+    pwd
+    ls -l
   displayName: 'Run a multi-line script'
