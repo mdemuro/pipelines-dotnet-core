@@ -23,6 +23,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     uname -a
+    echo pwd
     pwd
-    ls -l
+    echo "ls -lrt /home/vsts/work/1/s/bin/Release/net6.0/"
+    ls -lrt /home/vsts/work/1/s/bin/Release/net6.0/
   displayName: 'Run a multi-line script'
