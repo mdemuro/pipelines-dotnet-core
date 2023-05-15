@@ -10,7 +10,7 @@ pool:
 #  vmImage: ubuntu-latest
 name: default
 
-  container: ubuntu:16.04
+#  container: ubuntu:16.04
 
 
 steps:
