@@ -8,7 +8,7 @@ trigger:
 
 pool:
 #  vmImage: ubuntu-latest
-name: default
+  name: default
 
 #  container: ubuntu:16.04
 
